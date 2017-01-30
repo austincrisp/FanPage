@@ -1,0 +1,142 @@
+﻿body
+{
+    background-image: url("images/Final-Fantasy-Wallpaper.jpg");
+    background-color: #cccccc;
+    font-family: sans-serif;
+}
+
+#welcome h1
+{
+    background-color: #333;
+    border-radius: 10px;
+    color: whitesmoke;
+    padding: 10px;
+    margin-top: 75px;
+}
+
+#description h2
+{
+    background-color: #333;
+    border-radius: 5px;
+    padding: 10px;
+    color: whitesmoke;
+}
+
+nav ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+}
+
+nav li
+{
+    float: left;
+    display: inline;
+}
+
+nav li a
+{
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+nav li a:hover:not(.active)
+{
+    background-color: #111;
+}
+
+nav .active
+{
+    background-color: gold;
+    color: black;
+}
+
+.articles
+{
+    margin-top: 75px;
+    background-color: #333;
+}
+
+.preview
+{
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 15px, 50px, 30px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.preview:hover
+{
+    box-shadow: 2px 2px 10px whitesmoke;
+}
+
+.preview h3
+{
+    padding-top: 15px;
+    margin: 10px;
+    color: whitesmoke;
+}
+
+.text
+{
+    margin-left: 10px;
+}
+
+#about
+{
+    margin-top: 100px;
+    background-color: #333;
+    color: whitesmoke;
+    border-radius: 10px;
+}
+
+#about ul
+{
+    list-style-type: none;
+}
+
+#about h2
+{
+    padding: 10px
+}
+
+#about h3
+{
+    padding-left: 10px;
+}
+
+#about li
+{
+    margin: 10px;
+    padding-bottom: 5px;
+}
+
+#about li a
+{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+footer
+{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+}
+
+#footer
+{
+    color: whitesmoke;
+    padding-left: 10px;
+}
